@@ -14,7 +14,7 @@
 
 **IOS**
 
-1. download & open [I-funbox] (http://www.i-funbox.com/en/index.html)
+1. download & open [I-funbox](http://www.i-funbox.com/en/index.html)
 2. Navigate to the Animoog folder in App File Sharing
 3. Copy the folder "Modularsamples" to Animoog/presets
 4. Copy the CONTENTS of the waves folder to Animoog/catgories

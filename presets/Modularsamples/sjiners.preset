@@ -1,0 +1,106 @@
+--
+-- Moog Wavespace preset [Lua version 5.1]
+--
+preset = {
+	version = 0.4,
+	name = 'sjiners',
+	category = 'Modularsamples',
+	table = {
+		'thinshine-01', 'thinshine-02', 'thinshine-03', 'thinshine-04',
+		'thknshine-01', 'thknshine-02', 'thknshine-03', 'thknshine-04'
+	},
+	global = {
+		bpm = 120.000000,
+		volume = 1.000000,
+		correction = 0.933673,
+		glide = 0.399660,
+		keyboard = {0, 18},
+		pitchBendRange = 1
+	},
+	xy = {
+		cursor = {354.000000, 18.500000},
+		path = {
+			
+		}
+	},
+	kbScale = {
+		mono = 0,
+		legato = 0,
+		phaseReset = 0,
+		notes = {1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0}
+	},
+	envMod = {
+		vcaEnv = {0.000000, 0.935619, 0.721408, 0.581104},
+		vcfEnv = {0.401338, 1.000000, 0.387097, 0.489083},
+		modEnv = {1.000000, 0.500000, 0.500000, 1.000000},
+		lfo = {
+			sync = 1,
+			kbTrig = 1,
+			rate = 0.194055,
+			shape = 0.000000
+		},
+		modMatrix = {
+			mod1 = {
+				src = 'off', srcAmount = 0.506579,
+				ctl = 'poly-pressure', ctlAmount = 0.537280,
+				dst = 'orbit-rate'
+			},
+			mod2 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'velocity', ctlAmount = 0.657894,
+				dst = 'filter-amount'
+			},
+			mod3 = {
+				src = 'lfo', srcAmount = 0.534779,
+				ctl = 'poly-pressure', ctlAmount = 1.000000,
+				dst = 'pitch-1-semitone'
+			},
+			mod4 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'poly-pressure', ctlAmount = 0.513158,
+				dst = 'orbit-rate'
+			}
+		}
+	},
+	filter = {
+		mode = 0,
+		cutoff = 1.000000,
+		resonance = 0.000000,
+		amount = 0.520408,
+		drive = 0.551020
+	},
+	path = {
+		sync = 1,
+		mode = 2,
+		rate = 0.335034
+	},
+	orbit = {
+		sync = 1,
+		rate = 0.447279,
+		xAmount = 0.000000,
+		yAmount = 0.000000
+	},
+	thick = {
+		crush = 1.000000,
+		drive = 0.000000,
+		detune = 0.000000,
+		unison = 0
+	},
+	delay = {
+		sync = 1,
+		time = 0.107143,
+		feedback = 0.493198,
+		mix = 0.000000
+	},
+	rows = {
+		left = 0,
+		right = 0,
+		bottom = -1
+	},
+	xy2 = {
+		cursor = {354.000000, 18.500000},
+		path = {
+			
+		}
+	}
+}

@@ -1,0 +1,106 @@
+--
+-- Moog Wavespace preset [Lua version 5.1]
+--
+preset = {
+	version = 0.4,
+	name = 'ox2',
+	category = 'Modularsamples',
+	table = {
+		'ox03', 'ox04', 'ox04', 'ox06',
+		'ox07', 'ox08', 'ox09', 'ox10'
+	},
+	global = {
+		bpm = 134.000000,
+		volume = 0.843538,
+		correction = 1.000000,
+		glide = 0.292517,
+		keyboard = {3, 21},
+		pitchBendRange = 1
+	},
+	xy = {
+		cursor = {330.500000, 179.000000},
+		path = {
+			
+		}
+	},
+	kbScale = {
+		mono = 0,
+		legato = 0,
+		phaseReset = 0,
+		notes = {1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0}
+	},
+	envMod = {
+		vcaEnv = {0.000000, 1.000000, 0.000000, 0.593886},
+		vcfEnv = {0.000000, 0.530568, 1.000000, 1.000000},
+		modEnv = {1.000000, 0.500000, 0.500000, 1.000000},
+		lfo = {
+			sync = 1,
+			kbTrig = 1,
+			rate = 0.618933,
+			shape = 1.000000
+		},
+		modMatrix = {
+			mod1 = {
+				src = 'lfo', srcAmount = 0.495614,
+				ctl = 'poly-pressure', ctlAmount = 1.000000,
+				dst = 'filter-frequency'
+			},
+			mod2 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'key-pitch', ctlAmount = 1.000000,
+				dst = 'filter-frequency'
+			},
+			mod3 = {
+				src = 'lfo', srcAmount = 0.600877,
+				ctl = 'mod-wheel', ctlAmount = 1.000000,
+				dst = 'pitch-5-semitone'
+			},
+			mod4 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'pitch-bend', ctlAmount = 0.688596,
+				dst = 'pitch-5-semitone'
+			}
+		}
+	},
+	filter = {
+		mode = 0,
+		cutoff = 0.477891,
+		resonance = 0.523810,
+		amount = 0.734694,
+		drive = 0.649659
+	},
+	path = {
+		sync = 0,
+		mode = 1,
+		rate = 0.194368
+	},
+	orbit = {
+		sync = 1,
+		rate = 0.309524,
+		xAmount = 0.159864,
+		yAmount = 0.146259
+	},
+	thick = {
+		crush = 0.824830,
+		drive = 0.539116,
+		detune = 0.000000,
+		unison = 0
+	},
+	delay = {
+		sync = 0,
+		time = 0.177572,
+		feedback = 0.808258,
+		mix = 0.549320
+	},
+	rows = {
+		left = 0,
+		right = -1,
+		bottom = -1
+	},
+	xy2 = {
+		cursor = {330.500000, 179.000000},
+		path = {
+			
+		}
+	}
+}

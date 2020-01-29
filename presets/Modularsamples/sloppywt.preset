@@ -1,0 +1,106 @@
+--
+-- Moog Wavespace preset [Lua version 5.1]
+--
+preset = {
+	version = 0.4,
+	name = 'sloppywt',
+	category = 'Modularsamples',
+	table = {
+		'wt94', 'wt100', 'wt100', 'wt100',
+		'wt101', 'wt101', 'wt101', 'wt101'
+	},
+	global = {
+		bpm = 134.000000,
+		volume = 0.670068,
+		correction = 1.000000,
+		glide = 0.292517,
+		keyboard = {6, 24},
+		pitchBendRange = 1
+	},
+	xy = {
+		cursor = {311.500000, 16.000000},
+		path = {
+			
+		}
+	},
+	kbScale = {
+		mono = 0,
+		legato = 0,
+		phaseReset = 0,
+		notes = {1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0}
+	},
+	envMod = {
+		vcaEnv = {0.000000, 1.000000, 0.000000, 0.000000},
+		vcfEnv = {0.936681, 0.749957, 0.013761, 1.000000},
+		modEnv = {1.000000, 0.500000, 0.500000, 1.000000},
+		lfo = {
+			sync = 0,
+			kbTrig = 1,
+			rate = 0.528508,
+			shape = 1.000000
+		},
+		modMatrix = {
+			mod1 = {
+				src = 'lfo', srcAmount = 1.000000,
+				ctl = 'poly-pressure', ctlAmount = 1.000000,
+				dst = 'orbit-x-amount'
+			},
+			mod2 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'key-pitch', ctlAmount = 1.000000,
+				dst = 'filter-frequency'
+			},
+			mod3 = {
+				src = 'lfo', srcAmount = 0.600877,
+				ctl = 'mod-wheel', ctlAmount = 1.000000,
+				dst = 'pitch-5-semitone'
+			},
+			mod4 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'pitch-bend', ctlAmount = 0.688596,
+				dst = 'pitch-5-semitone'
+			}
+		}
+	},
+	filter = {
+		mode = 0,
+		cutoff = 1.000000,
+		resonance = 0.000000,
+		amount = 0.289116,
+		drive = 0.596939
+	},
+	path = {
+		sync = 0,
+		mode = 2,
+		rate = 0.573620
+	},
+	orbit = {
+		sync = 0,
+		rate = 0.705783,
+		xAmount = 0.636054,
+		yAmount = 0.000000
+	},
+	thick = {
+		crush = 1.000000,
+		drive = 0.459184,
+		detune = 0.273809,
+		unison = 1
+	},
+	delay = {
+		sync = 1,
+		time = 0.214286,
+		feedback = 0.274244,
+		mix = 0.493197
+	},
+	rows = {
+		left = 0,
+		right = -1,
+		bottom = -1
+	},
+	xy2 = {
+		cursor = {311.500000, 16.000000},
+		path = {
+			
+		}
+	}
+}

@@ -1,0 +1,106 @@
+--
+-- Moog Wavespace preset [Lua version 5.1]
+--
+preset = {
+	version = 0.4,
+	name = 'dropper',
+	category = 'Modularsamples',
+	table = {
+		'mod01', 'mod01', 'mod01_1', 'mod01_1',
+		'mod02', 'mod02', 'mod03', 'mod03'
+	},
+	global = {
+		bpm = 134.000000,
+		volume = 0.612245,
+		correction = 1.000000,
+		glide = 0.292517,
+		keyboard = {3, 21},
+		pitchBendRange = 1
+	},
+	xy = {
+		cursor = {331.500000, 39.500015},
+		path = {
+			{292.000000, -22.500015}, {-323.000000, 316.500000}, 
+		}
+	},
+	kbScale = {
+		mono = 0,
+		legato = 0,
+		phaseReset = 0,
+		notes = {1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0}
+	},
+	envMod = {
+		vcaEnv = {0.478166, 0.549386, 0.128440, 0.593886},
+		vcfEnv = {0.936681, 0.749957, 0.013761, 1.000000},
+		modEnv = {1.000000, 0.500000, 0.500000, 1.000000},
+		lfo = {
+			sync = 1,
+			kbTrig = 1,
+			rate = 0.618933,
+			shape = 1.000000
+		},
+		modMatrix = {
+			mod1 = {
+				src = 'lfo', srcAmount = 0.864035,
+				ctl = 'poly-pressure', ctlAmount = 1.000000,
+				dst = 'filter-frequency'
+			},
+			mod2 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'key-pitch', ctlAmount = 1.000000,
+				dst = 'filter-frequency'
+			},
+			mod3 = {
+				src = 'lfo', srcAmount = 0.600877,
+				ctl = 'mod-wheel', ctlAmount = 1.000000,
+				dst = 'pitch-5-semitone'
+			},
+			mod4 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'pitch-bend', ctlAmount = 0.688596,
+				dst = 'pitch-5-semitone'
+			}
+		}
+	},
+	filter = {
+		mode = 0,
+		cutoff = 0.202381,
+		resonance = 0.518708,
+		amount = 0.289116,
+		drive = 0.558580
+	},
+	path = {
+		sync = 0,
+		mode = 2,
+		rate = 0.194368
+	},
+	orbit = {
+		sync = 0,
+		rate = 0.472789,
+		xAmount = 0.000000,
+		yAmount = 0.000000
+	},
+	thick = {
+		crush = 1.000000,
+		drive = 0.879252,
+		detune = 0.000000,
+		unison = 0
+	},
+	delay = {
+		sync = 0,
+		time = 0.631654,
+		feedback = 0.316761,
+		mix = 0.132653
+	},
+	rows = {
+		left = 0,
+		right = -1,
+		bottom = -1
+	},
+	xy2 = {
+		cursor = {331.500000, 39.500015},
+		path = {
+			{292.000000, -22.500015, 0.000000}, {-323.000000, 316.500000, 0.000000}, 
+		}
+	}
+}

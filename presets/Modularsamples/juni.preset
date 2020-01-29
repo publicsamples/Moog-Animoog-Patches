@@ -1,0 +1,106 @@
+--
+-- Moog Wavespace preset [Lua version 5.1]
+--
+preset = {
+	version = 0.4,
+	name = 'juni',
+	category = 'Modularsamples',
+	table = {
+		'saw2notch1lpres57-D3 17-32.5137-squeez', 'saw2notch1lpres57-D3 33-48.5138-squeez', 'saw2notch1lpres57-D3 49-64.5139-squeez', 'saw2notch1lpres57-D3 65-79.5140-squeez',
+		'saw2notch1lpres57-D3 80-95.5141-squeez', 'saw2notch1lpres57-D3 96-111.5142-squeez', 'saw2notch1lpres57-D3 112-127.5143-squeez', 'saw2notch1lpres57-D3 112-127.5143-squeez'
+	},
+	global = {
+		bpm = 120.000000,
+		volume = 0.797619,
+		correction = 0.933673,
+		glide = 0.399660,
+		keyboard = {0, 18},
+		pitchBendRange = 1
+	},
+	xy = {
+		cursor = {107.000000, 125.500015},
+		path = {
+			
+		}
+	},
+	kbScale = {
+		mono = 0,
+		legato = 0,
+		phaseReset = 0,
+		notes = {1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0}
+	},
+	envMod = {
+		vcaEnv = {0.000000, 0.935619, 0.721408, 0.581104},
+		vcfEnv = {0.401338, 1.000000, 0.387097, 0.489083},
+		modEnv = {1.000000, 0.500000, 0.500000, 1.000000},
+		lfo = {
+			sync = 1,
+			kbTrig = 1,
+			rate = 0.194055,
+			shape = 0.000000
+		},
+		modMatrix = {
+			mod1 = {
+				src = 'off', srcAmount = 0.506579,
+				ctl = 'poly-pressure', ctlAmount = 0.537280,
+				dst = 'orbit-rate'
+			},
+			mod2 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'velocity', ctlAmount = 0.657894,
+				dst = 'filter-amount'
+			},
+			mod3 = {
+				src = 'lfo', srcAmount = 0.534779,
+				ctl = 'poly-pressure', ctlAmount = 1.000000,
+				dst = 'pitch-1-semitone'
+			},
+			mod4 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'poly-pressure', ctlAmount = 0.513158,
+				dst = 'orbit-rate'
+			}
+		}
+	},
+	filter = {
+		mode = 0,
+		cutoff = 1.000000,
+		resonance = 0.000000,
+		amount = 0.520408,
+		drive = 0.513606
+	},
+	path = {
+		sync = 1,
+		mode = 2,
+		rate = 0.647959
+	},
+	orbit = {
+		sync = 1,
+		rate = 0.309524,
+		xAmount = 0.000000,
+		yAmount = 0.528912
+	},
+	thick = {
+		crush = 1.000000,
+		drive = 0.000000,
+		detune = 0.207483,
+		unison = 1
+	},
+	delay = {
+		sync = 1,
+		time = 0.107143,
+		feedback = 0.493198,
+		mix = 0.000000
+	},
+	rows = {
+		left = 2,
+		right = 2,
+		bottom = -1
+	},
+	xy2 = {
+		cursor = {107.000000, 125.500015},
+		path = {
+			
+		}
+	}
+}

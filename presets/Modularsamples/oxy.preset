@@ -1,0 +1,106 @@
+--
+-- Moog Wavespace preset [Lua version 5.1]
+--
+preset = {
+	version = 0.4,
+	name = 'oxy',
+	category = 'Modularsamples',
+	table = {
+		'ox03', 'ox04', 'ox05', 'ox06',
+		'ox07', 'ox08', 'ox09', 'mod03'
+	},
+	global = {
+		bpm = 134.000000,
+		volume = 0.510204,
+		correction = 1.000000,
+		glide = 0.292517,
+		keyboard = {3, 21},
+		pitchBendRange = 1
+	},
+	xy = {
+		cursor = {322.000000, 16.000000},
+		path = {
+			{-5.000000, 329.500000}, {-15.500000, -3.000000}, 
+		}
+	},
+	kbScale = {
+		mono = 0,
+		legato = 0,
+		phaseReset = 0,
+		notes = {1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0}
+	},
+	envMod = {
+		vcaEnv = {0.478166, 0.549386, 0.128440, 0.593886},
+		vcfEnv = {0.936681, 0.749957, 0.013761, 1.000000},
+		modEnv = {1.000000, 0.500000, 0.500000, 1.000000},
+		lfo = {
+			sync = 1,
+			kbTrig = 1,
+			rate = 0.857456,
+			shape = 0.000000
+		},
+		modMatrix = {
+			mod1 = {
+				src = 'lfo', srcAmount = 0.598684,
+				ctl = 'poly-pressure', ctlAmount = 1.000000,
+				dst = 'thick-detune'
+			},
+			mod2 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'key-pitch', ctlAmount = 1.000000,
+				dst = 'filter-frequency'
+			},
+			mod3 = {
+				src = 'lfo', srcAmount = 0.600877,
+				ctl = 'mod-wheel', ctlAmount = 1.000000,
+				dst = 'pitch-5-semitone'
+			},
+			mod4 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'pitch-bend', ctlAmount = 0.688596,
+				dst = 'pitch-5-semitone'
+			}
+		}
+	},
+	filter = {
+		mode = 0,
+		cutoff = 1.000000,
+		resonance = 0.000000,
+		amount = 0.289116,
+		drive = 0.357143
+	},
+	path = {
+		sync = 0,
+		mode = 2,
+		rate = 0.299810
+	},
+	orbit = {
+		sync = 0,
+		rate = 0.518708,
+		xAmount = 0.000000,
+		yAmount = 0.000000
+	},
+	thick = {
+		crush = 0.824830,
+		drive = 0.539116,
+		detune = 0.098639,
+		unison = 2
+	},
+	delay = {
+		sync = 0,
+		time = 0.184375,
+		feedback = 0.559958,
+		mix = 0.000000
+	},
+	rows = {
+		left = 0,
+		right = 1,
+		bottom = -1
+	},
+	xy2 = {
+		cursor = {322.000000, 16.000000},
+		path = {
+			{-5.000000, 329.500000, 0.000000}, {-15.500000, -3.000000, 0.000000}, 
+		}
+	}
+}

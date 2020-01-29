@@ -1,0 +1,106 @@
+--
+-- Moog Wavespace preset [Lua version 5.1]
+--
+preset = {
+	version = 0.4,
+	name = 'seasee',
+	category = 'Modularsamples',
+	table = {
+		'Electric Seas-72-32-QF0H.530-squeez', 'Electric Seas-72-77-RDL4.531-squeez', 'Electric Seas-72-77-RDL4.531-squeez', 'Electric Seas-72-127-F6MW.532-squeez',
+		'Electric Seas-72-127-F6MW.532-squeez', 'Electric Seas-72-77-RDL4.531-squeez', 'Electric Seas-72-77-RDL4.531-squeez', 'Electric Seas-72-77-RDL4.531-squeez'
+	},
+	global = {
+		bpm = 120.000000,
+		volume = 1.000000,
+		correction = 1.000000,
+		glide = 0.399660,
+		keyboard = {8, 26},
+		pitchBendRange = 1
+	},
+	xy = {
+		cursor = {16.000000, 166.000015},
+		path = {
+			
+		}
+	},
+	kbScale = {
+		mono = 0,
+		legato = 0,
+		phaseReset = 0,
+		notes = {1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0}
+	},
+	envMod = {
+		vcaEnv = {0.000000, 0.519231, 0.804985, 0.397993},
+		vcfEnv = {0.000000, 0.975982, 0.848624, 0.489083},
+		modEnv = {1.000000, 0.500000, 0.500000, 1.000000},
+		lfo = {
+			sync = 1,
+			kbTrig = 1,
+			rate = 0.194055,
+			shape = 0.000000
+		},
+		modMatrix = {
+			mod1 = {
+				src = 'off', srcAmount = 0.506579,
+				ctl = 'poly-pressure', ctlAmount = 0.537280,
+				dst = 'orbit-rate'
+			},
+			mod2 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'velocity', ctlAmount = 0.657894,
+				dst = 'filter-amount'
+			},
+			mod3 = {
+				src = 'lfo', srcAmount = 0.534779,
+				ctl = 'poly-pressure', ctlAmount = 1.000000,
+				dst = 'pitch-1-semitone'
+			},
+			mod4 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'poly-pressure', ctlAmount = 0.513158,
+				dst = 'orbit-rate'
+			}
+		}
+	},
+	filter = {
+		mode = 0,
+		cutoff = 0.702381,
+		resonance = 0.000000,
+		amount = 0.505102,
+		drive = 0.600340
+	},
+	path = {
+		sync = 1,
+		mode = 2,
+		rate = 0.685374
+	},
+	orbit = {
+		sync = 1,
+		rate = 0.510204,
+		xAmount = 0.000000,
+		yAmount = 0.795918
+	},
+	thick = {
+		crush = 1.000000,
+		drive = 0.000000,
+		detune = 0.000000,
+		unison = 0
+	},
+	delay = {
+		sync = 0,
+		time = 0.484694,
+		feedback = 0.518707,
+		mix = 0.323129
+	},
+	rows = {
+		left = 0,
+		right = -1,
+		bottom = -1
+	},
+	xy2 = {
+		cursor = {16.000000, 166.000015},
+		path = {
+			
+		}
+	}
+}

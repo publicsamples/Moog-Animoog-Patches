@@ -1,0 +1,106 @@
+--
+-- Moog Wavespace preset [Lua version 5.1]
+--
+preset = {
+	version = 0.4,
+	name = 'gobbler',
+	category = 'Modularsamples',
+	table = {
+		'HQFM17 20-3A3I.5', 'HQFM21 24-DSY9.5', 'HQFM25 28-P5TG.5', 'HQFM29 32-E4DV.5',
+		'HQFM33 36-D32B.5', 'HQFM37 40-986I.5', 'HQFM41 44-KCWK.5', 'HQFM45 48-X5YJ.5'
+	},
+	global = {
+		bpm = 120.000000,
+		volume = 0.945578,
+		correction = 0.933673,
+		glide = 0.399660,
+		keyboard = {0, 18},
+		pitchBendRange = 1
+	},
+	xy = {
+		cursor = {68.000000, 65.500000},
+		path = {
+			{271.500000, -50.000000}, {287.500000, 268.000000}, 
+		}
+	},
+	kbScale = {
+		mono = 0,
+		legato = 0,
+		phaseReset = 0,
+		notes = {1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0}
+	},
+	envMod = {
+		vcaEnv = {0.428930, 0.641921, 0.000000, 0.718341},
+		vcfEnv = {0.000000, 0.975982, 0.848624, 0.489083},
+		modEnv = {1.000000, 0.500000, 0.500000, 1.000000},
+		lfo = {
+			sync = 1,
+			kbTrig = 1,
+			rate = 0.194055,
+			shape = 0.000000
+		},
+		modMatrix = {
+			mod1 = {
+				src = 'off', srcAmount = 0.506579,
+				ctl = 'poly-pressure', ctlAmount = 0.537280,
+				dst = 'orbit-rate'
+			},
+			mod2 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'velocity', ctlAmount = 0.657894,
+				dst = 'filter-amount'
+			},
+			mod3 = {
+				src = 'lfo', srcAmount = 0.534779,
+				ctl = 'poly-pressure', ctlAmount = 1.000000,
+				dst = 'pitch-1-semitone'
+			},
+			mod4 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'poly-pressure', ctlAmount = 0.513158,
+				dst = 'orbit-rate'
+			}
+		}
+	},
+	filter = {
+		mode = 0,
+		cutoff = 1.000000,
+		resonance = 0.000000,
+		amount = 0.471088,
+		drive = 0.613945
+	},
+	path = {
+		sync = 1,
+		mode = 2,
+		rate = 0.163265
+	},
+	orbit = {
+		sync = 1,
+		rate = 0.000000,
+		xAmount = 0.000000,
+		yAmount = 0.000000
+	},
+	thick = {
+		crush = 1.000000,
+		drive = 0.000000,
+		detune = 0.197279,
+		unison = 1
+	},
+	delay = {
+		sync = 1,
+		time = 0.107143,
+		feedback = 0.493198,
+		mix = 0.000000
+	},
+	rows = {
+		left = 1,
+		right = -1,
+		bottom = -1
+	},
+	xy2 = {
+		cursor = {68.000000, 65.500000},
+		path = {
+			{271.500000, -50.000000, 0.000000}, {287.500000, 268.000000, 0.000000}, 
+		}
+	}
+}

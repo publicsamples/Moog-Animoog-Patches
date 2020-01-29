@@ -1,0 +1,106 @@
+--
+-- Moog Wavespace preset [Lua version 5.1]
+--
+preset = {
+	version = 0.4,
+	name = 'plooo',
+	category = 'Modularsamples',
+	table = {
+		'a1', 'a2', 'a3', 'a4',
+		'a5', 'a6', 'a7', 'a8'
+	},
+	global = {
+		bpm = 134.000000,
+		volume = 0.811224,
+		correction = 1.000000,
+		glide = 0.408163,
+		keyboard = {0, 17},
+		pitchBendRange = 1
+	},
+	xy = {
+		cursor = {16.000000, 16.000000},
+		path = {
+			{-2.500000, 231.500000}, {0.000000, 4.000000}, 
+		}
+	},
+	kbScale = {
+		mono = 1,
+		legato = 1,
+		phaseReset = 0,
+		notes = {1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0}
+	},
+	envMod = {
+		vcaEnv = {0.026201, 0.265295, 0.096774, 0.109170},
+		vcfEnv = {0.000000, 0.327511, 0.715596, 1.000000},
+		modEnv = {1.000000, 0.500000, 0.500000, 1.000000},
+		lfo = {
+			sync = 0,
+			kbTrig = 1,
+			rate = 0.575073,
+			shape = 0.000000
+		},
+		modMatrix = {
+			mod1 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'poly-pressure', ctlAmount = 0.662281,
+				dst = 'filter-frequency'
+			},
+			mod2 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'key-pitch', ctlAmount = 1.000000,
+				dst = 'filter-frequency'
+			},
+			mod3 = {
+				src = 'lfo', srcAmount = 0.600877,
+				ctl = 'mod-wheel', ctlAmount = 1.000000,
+				dst = 'pitch-5-semitone'
+			},
+			mod4 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'pitch-bend', ctlAmount = 0.688596,
+				dst = 'pitch-5-semitone'
+			}
+		}
+	},
+	filter = {
+		mode = 0,
+		cutoff = 0.954082,
+		resonance = 0.000000,
+		amount = 0.408163,
+		drive = 0.783070
+	},
+	path = {
+		sync = 0,
+		mode = 2,
+		rate = 0.420559
+	},
+	orbit = {
+		sync = 0,
+		rate = 0.472789,
+		xAmount = 0.000000,
+		yAmount = 0.000000
+	},
+	thick = {
+		crush = 1.000000,
+		drive = 0.574830,
+		detune = 0.183674,
+		unison = 0
+	},
+	delay = {
+		sync = 0,
+		time = 0.631654,
+		feedback = 0.316761,
+		mix = 0.132653
+	},
+	rows = {
+		left = 0,
+		right = -1,
+		bottom = -1
+	},
+	xy2 = {
+		cursor = {16.000000, 16.000000},
+		path = {
+			{-2.500000, 231.500000, 0.000000}, {0.000000, 4.000000, 0.000000}, 
+		}
+	}
+}

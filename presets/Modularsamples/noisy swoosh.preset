@@ -1,0 +1,106 @@
+--
+-- Moog Wavespace preset [Lua version 5.1]
+--
+preset = {
+	version = 0.4,
+	name = 'noisy swoosh',
+	category = 'Modularsamples',
+	table = {
+		'022 More Noisy Shoosh-44-32.5', '022 More Noisy Shoosh-44-32.5', '022 More Noisy Shoosh-44-64.5', '022 More Noisy Shoosh-44-64.5',
+		'022 More Noisy Shoosh-44-95.5', '022 More Noisy Shoosh-44-95.5', '022 More Noisy Shoosh-44-127.5', '022 More Noisy Shoosh-44-127.5'
+	},
+	global = {
+		bpm = 120.000000,
+		volume = 0.760204,
+		correction = 0.933673,
+		glide = 0.399660,
+		keyboard = {0, 18},
+		pitchBendRange = 1
+	},
+	xy = {
+		cursor = {291.000000, 173.499985},
+		path = {
+			
+		}
+	},
+	kbScale = {
+		mono = 0,
+		legato = 0,
+		phaseReset = 0,
+		notes = {1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0}
+	},
+	envMod = {
+		vcaEnv = {0.000000, 0.641921, 0.000000, 0.000000},
+		vcfEnv = {0.000000, 0.975982, 0.848624, 0.489083},
+		modEnv = {1.000000, 0.500000, 0.500000, 1.000000},
+		lfo = {
+			sync = 1,
+			kbTrig = 1,
+			rate = 0.194055,
+			shape = 0.000000
+		},
+		modMatrix = {
+			mod1 = {
+				src = 'off', srcAmount = 0.506579,
+				ctl = 'poly-pressure', ctlAmount = 0.537280,
+				dst = 'orbit-rate'
+			},
+			mod2 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'velocity', ctlAmount = 0.657894,
+				dst = 'filter-amount'
+			},
+			mod3 = {
+				src = 'lfo', srcAmount = 0.534779,
+				ctl = 'poly-pressure', ctlAmount = 1.000000,
+				dst = 'pitch-1-semitone'
+			},
+			mod4 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'poly-pressure', ctlAmount = 0.513158,
+				dst = 'orbit-rate'
+			}
+		}
+	},
+	filter = {
+		mode = 0,
+		cutoff = 1.000000,
+		resonance = 0.000000,
+		amount = 0.471088,
+		drive = 0.545918
+	},
+	path = {
+		sync = 1,
+		mode = 1,
+		rate = 0.338435
+	},
+	orbit = {
+		sync = 1,
+		rate = 0.409864,
+		xAmount = 0.000000,
+		yAmount = 0.263605
+	},
+	thick = {
+		crush = 1.000000,
+		drive = 0.000000,
+		detune = 0.000000,
+		unison = 0
+	},
+	delay = {
+		sync = 1,
+		time = 0.107143,
+		feedback = 0.493198,
+		mix = 0.000000
+	},
+	rows = {
+		left = 2,
+		right = -1,
+		bottom = -1
+	},
+	xy2 = {
+		cursor = {291.000000, 173.499985},
+		path = {
+			
+		}
+	}
+}

@@ -1,0 +1,106 @@
+--
+-- Moog Wavespace preset [Lua version 5.1]
+--
+preset = {
+	version = 0.4,
+	name = 'Saucer',
+	category = 'Modularsamples',
+	table = {
+		'VocoderSwp', 'PrimeSweep', 'SawPhase', 'SawMurf1',
+		'FlangeSquare', 'PulSync', 'SynthBasic', 'SrgeWavMult3c'
+	},
+	global = {
+		bpm = 120.000000,
+		volume = 1.000000,
+		correction = 1.000000,
+		glide = 0.000000,
+		keyboard = {7, 20},
+		pitchBendRange = 1
+	},
+	xy = {
+		cursor = {223.000000, 59.499985},
+		path = {
+			
+		}
+	},
+	kbScale = {
+		mono = 1,
+		legato = 1,
+		phaseReset = 1,
+		notes = {1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1}
+	},
+	envMod = {
+		vcaEnv = {0.000000, 1.000000, 0.000000, 0.240175},
+		vcfEnv = {0.000000, 0.550218, 0.697248, 1.000000},
+		modEnv = {1.000000, 0.500000, 0.500000, 1.000000},
+		lfo = {
+			sync = 0,
+			kbTrig = 1,
+			rate = 0.000000,
+			shape = 0.000000
+		},
+		modMatrix = {
+			mod1 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'off', ctlAmount = 0.500000,
+				dst = 'off'
+			},
+			mod2 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'off', ctlAmount = 0.500000,
+				dst = 'off'
+			},
+			mod3 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'off', ctlAmount = 0.500000,
+				dst = 'off'
+			},
+			mod4 = {
+				src = 'off', srcAmount = 0.500000,
+				ctl = 'off', ctlAmount = 0.500000,
+				dst = 'off'
+			}
+		}
+	},
+	filter = {
+		mode = 0,
+		cutoff = 1.000000,
+		resonance = 0.588435,
+		amount = 0.500000,
+		drive = 0.613904
+	},
+	path = {
+		sync = 0,
+		mode = 1,
+		rate = 0.000000
+	},
+	orbit = {
+		sync = 0,
+		rate = 0.530612,
+		xAmount = 0.399660,
+		yAmount = 0.039116
+	},
+	thick = {
+		crush = 1.000000,
+		drive = 0.000000,
+		detune = 0.120221,
+		unison = 2
+	},
+	delay = {
+		sync = 0,
+		time = 0.482541,
+		feedback = 0.507838,
+		mix = 0.000000
+	},
+	rows = {
+		left = 2,
+		right = -1,
+		bottom = -1
+	},
+	xy2 = {
+		cursor = {223.000000, 59.499985},
+		path = {
+			
+		}
+	}
+}

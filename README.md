@@ -7,8 +7,7 @@
 -   **Approx Size:** 50mb
 -   **Info:** [moogmusic.com](https://www.moogmusic.com/products/animoog)
 
-**Please note:** Loading user waves to Animoog is not supported by Moog AFAIK. I'm not resposible for any problems that might arise from installing these waves. That said, they work fine here. 
-
+**Please note:** Loading user waves to Animoog is not supported by Moog. I'm not resposible for any problems that might arise from installing these waves. That said, they work fine here. 
 
 # Loading
 
@@ -20,10 +19,8 @@
 4. Copy the CONTENTS of the waves folder to Animoog/catgories
 
 
-# Support this project
-
-[Report issues](/issues) - [Buy a Sample Library](https://gumroad.com/modularsamples) - [Become a Patreon](https://www.patreon.com/modularsamples) - [Add new patches & Formats](/pulls)
+## **Support this project**
 
 [
-![Sample library disks](https://github.com/publicsamples/Public-Samples/raw/master/images/drives2.jpg?raw=true)
-](https://gum.co/modularsamples-drives)
+![enter image description here](https://www.modularsamples.com/img/msdx.png)
+](https://www.modularsamples.com/dx-15-for-kontakt/)

@@ -18,9 +18,3 @@
 3. Copy the folder "Modularsamples" to Animoog/presets
 4. Copy the CONTENTS of the waves folder to Animoog/catgories
 
-
-## **Support this project**
-
-[
-![enter image description here](https://www.modularsamples.com/img/dx10xfi.png)
-](https://www.modularsamples.com/dx-15-for-kontakt/)
